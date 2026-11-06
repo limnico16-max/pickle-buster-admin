@@ -1752,3 +1752,6 @@ body{color:#18243a!important}
 .profile-avatar-change{position:absolute;right:-7px;top:-7px;width:34px;height:34px;border:2px solid #fff;border-radius:50%;background:#c58bc8;color:#fff;font-size:17px;display:grid;place-items:center;box-shadow:0 3px 10px rgba(45,28,75,.2);cursor:pointer}
 .profile-avatar-change:active{transform:scale(.94)}
 #avatar-picker{scroll-margin-top:24px}
+
+/* Compact searchable Team A / Team B player selectors */
+.player-choice-search{width:100%;min-width:0;margin:8px 0 4px;padding:10px 12px;border:1px solid #d5dceb;border-radius:10px;background:#fff;color:#18243b;font-size:14px}.player-choice-list{max-height:176px;overflow-y:auto;align-content:flex-start;padding:2px 4px 8px;border:1px solid #e1e6ef;border-radius:10px;background:#f8f9fc}.player-choice-list .choice-chip{padding:7px 10px;font-size:13px}
