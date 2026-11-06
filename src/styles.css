@@ -1733,3 +1733,16 @@ body{color:#18243a!important}
  .player-layout .player-nav button.active{background:#edf3ff!important;color:#2858ad!important}
  .admin-layout .session-nav,.ajk-layout .session-nav{background:transparent!important}
 }
+
+
+/* Admin usability fixes: compact collapsible directory search and readable ranking */
+.admin-layout .admin-rank-table{overflow-x:auto;overscroll-behavior-x:contain}
+.admin-layout .admin-rank-table .rank-row{min-width:820px}
+.admin-layout .directory-search{width:100%;margin:12px 0}
+.admin-layout .list-panel>.mini-btn[aria-expanded]{margin:4px 0 8px}
+@media(max-width:700px){
+  .admin-layout .admin-rank-table{max-width:calc(100vw - 36px)}
+  .admin-layout .admin-rank-table .rank-row{min-width:820px}
+  .admin-layout .player-admin-row{align-items:flex-start;flex-wrap:wrap;gap:10px}
+  .admin-layout .player-admin-row .row-actions{width:100%;justify-content:flex-end}
+}
