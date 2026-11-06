@@ -1828,3 +1828,88 @@ body:has(.admin-layout) .primary{background:#ed69a8!important;color:#fff!importa
   body:has(.admin-layout) .admin-top{flex-wrap:wrap;gap:12px;padding:18px;border-radius:22px}
   body:has(.admin-layout) .command-grid{grid-template-columns:1fr}
 }
+
+/* ADMIN V3 LIGHT THEME — comprehensive component pass */
+body:has(.admin-layout){background:#f2f4f8!important;color:#18243a!important}
+body:has(.admin-layout) .app-shell{background:transparent!important;color:#18243a!important}
+body:has(.admin-layout) .admin-layout{color:#18243a!important;gap:22px}
+body:has(.admin-layout) .admin-layout .side,
+body:has(.admin-layout) .admin-layout .form-panel,
+body:has(.admin-layout) .admin-layout .list-panel,
+body:has(.admin-layout) .admin-layout .coming,
+body:has(.admin-layout) .admin-layout .ops-panel,
+body:has(.admin-layout) .admin-layout .session-operation-panel,
+body:has(.admin-layout) .admin-layout .table-panel,
+body:has(.admin-layout) .admin-layout .payment-tab,
+body:has(.admin-layout) .admin-layout .lucky-wheel-card,
+body:has(.admin-layout) .admin-layout .lucky-hero,
+body:has(.admin-layout) .admin-layout .announcement-admin-card,
+body:has(.admin-layout) .admin-layout .session-detail,
+body:has(.admin-layout) .admin-layout .edit-panel,
+body:has(.admin-layout) .admin-layout .command-grid button{
+ background:#fff!important;color:#18243a!important;border:1px solid #dce3ee!important;
+ box-shadow:0 8px 28px rgba(24,36,58,.055)!important
+}
+body:has(.admin-layout) .admin-layout .side{position:sticky;top:14px;align-self:start}
+body:has(.admin-layout) .admin-layout .admin-main{min-width:0}
+body:has(.admin-layout) .admin-layout .admin-top{background:#fff;border:1px solid #dce3ee;border-radius:22px;padding:20px 22px;margin:0 0 18px;box-shadow:0 8px 28px rgba(24,36,58,.045)}
+body:has(.admin-layout) .admin-layout .admin-top h1,
+body:has(.admin-layout) .admin-layout .panel-head h2,
+body:has(.admin-layout) .admin-layout .panel-head h3,
+body:has(.admin-layout) .admin-layout .section-head h2,
+body:has(.admin-layout) .admin-layout .section-head h3,
+body:has(.admin-layout) .admin-layout .command-grid strong,
+body:has(.admin-layout) .admin-layout .form-panel h2,
+body:has(.admin-layout) .admin-layout .list-panel h2,
+body:has(.admin-layout) .admin-layout .ops-panel h3{color:#18243a!important}
+body:has(.admin-layout) .admin-layout .side-title{color:#18243a!important}
+body:has(.admin-layout) .admin-layout .side nav button,
+body:has(.admin-layout) .admin-layout .signout{color:#53627a!important}
+body:has(.admin-layout) .admin-layout .side nav button.active,
+body:has(.admin-layout) .admin-layout .side nav button:hover{background:#fff0f6!important;color:#b72e70!important}
+body:has(.admin-layout) .admin-layout .command-grid button{border-radius:20px!important;min-height:142px}
+body:has(.admin-layout) .admin-layout .command-grid button:hover{border-color:#ef9ac3!important;transform:translateY(-2px)}
+body:has(.admin-layout) .admin-stats>div,
+body:has(.admin-layout) .admin-layout .row,
+body:has(.admin-layout) .admin-layout .operation-row,
+body:has(.admin-layout) .admin-layout .holding-player-summary,
+body:has(.admin-layout) .admin-layout .rank-highlight>div,
+body:has(.admin-layout) .admin-layout .reward-pool-card,
+body:has(.admin-layout) .admin-layout .lucky-stage,
+body:has(.admin-layout) .admin-layout .top-wheel-row{background:#f8fafc!important;color:#25334b!important;border-color:#dce3ee!important}
+body:has(.admin-layout) .admin-stats>div strong{color:#18243a!important}
+body:has(.admin-layout) .admin-layout .row small,
+body:has(.admin-layout) .admin-layout .panel-note,
+body:has(.admin-layout) .admin-layout .form-hint,
+body:has(.admin-layout) .admin-layout .section-head p,
+body:has(.admin-layout) .admin-layout .admin-top small{color:#718096!important}
+body:has(.admin-layout) .admin-layout input,
+body:has(.admin-layout) .admin-layout select,
+body:has(.admin-layout) .admin-layout textarea{background:#fff!important;color:#18243a!important;border:1px solid #cbd5e1!important}
+body:has(.admin-layout) .admin-layout input::placeholder,
+body:has(.admin-layout) .admin-layout textarea::placeholder{color:#94a3b8!important}
+body:has(.admin-layout) .admin-layout .choice-chip,
+body:has(.admin-layout) .admin-layout .mini-btn,
+body:has(.admin-layout) .admin-layout .refresh-btn,
+body:has(.admin-layout) .admin-layout .session-nav button,
+body:has(.admin-layout) .admin-layout .user-pill{background:#f8fafc!important;color:#334155!important;border:1px solid #d7dfeb!important}
+body:has(.admin-layout) .admin-layout .choice-chip.selected,
+body:has(.admin-layout) .admin-layout .session-nav button.active{background:#fff0f6!important;color:#b72e70!important;border-color:#ed8bb9!important}
+body:has(.admin-layout) .admin-layout .primary{background:#e96ca7!important;color:#fff!important}
+body:has(.admin-layout) .admin-layout .notice{background:#fff1f6!important;color:#9c285f!important;border-color:#f1bfd5!important}
+body:has(.admin-layout) .admin-layout .empty{background:#f8fafc!important;color:#718096!important;border-color:#cbd5e1!important}
+body:has(.admin-layout) .admin-layout .detail-grid>div{background:#fff!important;color:#18243a!important}
+body:has(.admin-layout) .admin-layout .player-picker-search{margin:8px 0 10px;max-width:100%;border-radius:12px;padding:12px 14px}
+body:has(.admin-layout) .admin-layout .choice-grid{max-height:310px;overflow:auto;padding:4px;align-content:start}
+@media(max-width:900px){
+ body:has(.admin-layout) .admin-layout{grid-template-columns:1fr}
+ body:has(.admin-layout) .admin-layout .side{position:relative;top:auto}
+ body:has(.admin-layout) .admin-layout .admin-top{align-items:flex-start;flex-wrap:wrap;gap:12px}
+ body:has(.admin-layout) .admin-layout .top-actions{display:flex;flex-wrap:wrap;gap:8px}
+ body:has(.admin-layout) .admin-layout .work-grid{grid-template-columns:1fr}
+}
+@media(max-width:650px){
+ body:has(.admin-layout) .admin-layout .admin-top h1{font-size:30px}
+ body:has(.admin-layout) .admin-layout .command-grid{grid-template-columns:1fr}
+ body:has(.admin-layout) .admin-layout .command-grid button{min-height:112px;padding:20px}
+}
