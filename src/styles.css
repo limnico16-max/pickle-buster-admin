@@ -1755,3 +1755,76 @@ body{color:#18243a!important}
 
 /* Compact searchable Team A / Team B player selectors */
 .player-choice-search{width:100%;min-width:0;margin:8px 0 4px;padding:10px 12px;border:1px solid #d5dceb;border-radius:10px;background:#fff;color:#18243b;font-size:14px}.player-choice-list{max-height:176px;overflow-y:auto;align-content:flex-start;padding:2px 4px 8px;border:1px solid #e1e6ef;border-radius:10px;background:#f8f9fc}.player-choice-list .choice-chip{padding:7px 10px;font-size:13px}
+
+
+/* PICKLE BUSTER ADMIN V3 — LIGHT COMMAND CENTER BASELINE
+   Scoped to Admin layout only; Player/AJK themes and all app logic remain untouched. */
+body:has(.admin-layout){background:#f3f5f9!important;color:#17243a!important}
+body:has(.admin-layout) .app-shell{color:#17243a}
+body:has(.admin-layout) .admin-layout{color:#17243a}
+body:has(.admin-layout) .side,
+body:has(.admin-layout) .admin-top,
+body:has(.admin-layout) .hero,
+body:has(.admin-layout) .form-panel,
+body:has(.admin-layout) .list-panel,
+body:has(.admin-layout) .coming,
+body:has(.admin-layout) .ops-panel,
+body:has(.admin-layout) .table-panel,
+body:has(.admin-layout) .session-panel,
+body:has(.admin-layout) .admin-card,
+body:has(.admin-layout) .command-grid button{
+  background:#fff!important;
+  color:#17243a!important;
+  border-color:#dce3ee!important;
+  box-shadow:0 8px 28px rgba(23,36,58,.055);
+}
+body:has(.admin-layout) .side{background:#fff!important}
+body:has(.admin-layout) .side-title,
+body:has(.admin-layout) .admin-top h1,
+body:has(.admin-layout) .command-grid strong,
+body:has(.admin-layout) .form-panel h2,
+body:has(.admin-layout) .form-panel h3,
+body:has(.admin-layout) .list-panel h2,
+body:has(.admin-layout) .list-panel h3,
+body:has(.admin-layout) .ops-panel h2,
+body:has(.admin-layout) .ops-panel h3,
+body:has(.admin-layout) .ops-panel h4{color:#17243a!important}
+body:has(.admin-layout) .command-grid button{min-height:138px;border-radius:22px}
+body:has(.admin-layout) .command-grid button:hover{background:#fff!important;border-color:#f3a1c8!important;transform:translateY(-2px)}
+body:has(.admin-layout) .command-grid span,
+body:has(.admin-layout) .section-hint,
+body:has(.admin-layout) .form-hint,
+body:has(.admin-layout) .panel-note,
+body:has(.admin-layout) .admin-top small,
+body:has(.admin-layout) .row small{color:#718096!important}
+body:has(.admin-layout) .side nav button,
+body:has(.admin-layout) .signout{color:#52627b!important}
+body:has(.admin-layout) .side nav button.active,
+body:has(.admin-layout) .side nav button:hover{background:#fff0f6!important;color:#b83275!important}
+body:has(.admin-layout) .user-pill,
+body:has(.admin-layout) .row,
+body:has(.admin-layout) .empty,
+body:has(.admin-layout) .status-chip,
+body:has(.admin-layout) .choice-chip,
+body:has(.admin-layout) .mini-btn,
+body:has(.admin-layout) .refresh-btn,
+body:has(.admin-layout) .session-nav button{
+  background:#f8fafc!important;color:#334155!important;border-color:#dbe3ef!important
+}
+body:has(.admin-layout) input,
+body:has(.admin-layout) select,
+body:has(.admin-layout) textarea{
+  background:#fff!important;color:#17243a!important;border-color:#cbd5e1!important
+}
+body:has(.admin-layout) input::placeholder,
+body:has(.admin-layout) textarea::placeholder{color:#94a3b8!important}
+body:has(.admin-layout) .notice{background:#fff4f8!important;color:#9d285e!important;border-color:#f4bfd6!important}
+body:has(.admin-layout) .detail-grid>div,
+body:has(.admin-layout) .session-detail{background:#fff!important;color:#17243a!important;border-color:#dce3ee!important}
+body:has(.admin-layout) .close-btn{background:#f8fafc!important;color:#334155!important;border-color:#dbe3ef!important}
+body:has(.admin-layout) .primary{background:#ed69a8!important;color:#fff!important}
+@media(max-width:900px){
+  body:has(.admin-layout) .side{min-height:auto}
+  body:has(.admin-layout) .admin-top{flex-wrap:wrap;gap:12px;padding:18px;border-radius:22px}
+  body:has(.admin-layout) .command-grid{grid-template-columns:1fr}
+}
